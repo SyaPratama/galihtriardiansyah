@@ -1,0 +1,92 @@
+/* Reset margin & padding */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Hero section */
+.hero-section {
+  margin: auto;
+  width: 1547px;
+  height: 790px;
+}
+
+/* Navigasi */
+.hero-nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 145px;
+  width: 100%;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: black;
+}
+
+/* Kontainer utama hero */
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+}
+
+/* Gambar utama */
+.hero-img {
+  width: 665px;
+  height: 665px;
+}
+
+/* Tagline dan info developer */
+.hero-tagline {
+  margin-bottom: 208px;
+}
+
+.hero-tagline span {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px;
+}
+
+.hero-tagline h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px #D5A362;
+}
+
+.hero-tagline p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+/* Tombol CTA Umum */
+.cta-button button {
+  border: none;
+  border-radius: 12px;
+  padding: 20px 36px;
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.75);
+}
+
+/* Tombol "See Project" */
+.btn-see-project {
+  background-color: #755035;
+}
+
+.btn-see-project:hover {
+  background-color: #D5A362;
+}
+
+/* Tombol "Hire Me" */
+.btn-hire-me {
+  background-color: #D5A362;
+  margin-left: 36px;
+}
+
+.btn-hire-me:hover {
+  background-color: #755035;
+}
