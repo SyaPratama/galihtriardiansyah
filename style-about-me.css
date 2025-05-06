@@ -1,80 +1,142 @@
 /* RESET default margin & padding */
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  
-  /* SECTION WRAPPER */
-  .about-me-section {
-    margin: auto;
-    width: 1547px;
-    height: 790px;
-  }
-  
-  /* NAVIGATION */
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 145px;
-    width: 100%;
-  }
-  
-  .nav-links a {
-    margin: 0 12px;
-    font-family: 'Press Start 2P', cursive;
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover,
-  .nav-links .active-link {
-    color: #D5A362;
-    text-decoration: underline;
-  }
-  
-  /* CONTENT CONTAINER */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* SECTION WRAPPER */
+.about-me-section {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* NAVIGATION */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  margin: 8px 12px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  font-size: 12px;
+}
+
+.nav-links a:hover,
+.nav-links .active-link {
+  color: #D5A362;
+  text-decoration: underline;
+}
+
+/* CONTENT CONTAINER */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+/* SIGN IMAGE */
+.sign-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* TEXT */
+.intro-text {
+  transform: rotate(-5deg);
+  margin-top: 20px;
+  margin-left: 0;
+  max-width: 550px;
+}
+
+.intro-text span {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+
+.intro-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+/* ILLUSTRATION */
+.illustration {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.illustration img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* ======================== */
+/* ===== MEDIA QUERIES ==== */
+/* ======================== */
+
+/* Tablet: <= 1024px */
+@media screen and (max-width: 1024px) {
   .about-content {
-    display: flex;
-    margin-top: -130px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  
-  /* LEFT: SIGN IMAGE */
-  .sign-image img {
-    width: 608px;
-    margin-left: -100px;
-  }
-  
-  /* CENTER: TEXT */
+
   .intro-text {
-    transform: rotate(-10.56deg);
-    margin-top: -100px;
-    margin-left: 38px;
+    transform: none;
+    margin-top: 20px;
   }
-  
+}
+
+/* Mobile: <= 768px */
+@media screen and (max-width: 768px) {
+  .nav-links a {
+    font-size: 10px;
+  }
+
   .intro-text span {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 24px;
+    font-size: 18px;
   }
-  
+
   .intro-text p {
-    font-family: "Inter", sans-serif;
-    font-size: 24px;
-    margin-top: -1px;
+    font-size: 16px;
   }
-  
-  /* RIGHT: ILLUSTRATION */
-  .illustration {
-    width: 765px;
-    height: 765px;
-    margin-top: 150px;
+}
+
+/* Very small: <= 480px */
+@media screen and (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
   }
-  
-  .illustration img {
-    width: 675px;
-    height: 675px;
-    margin-left: 150px;
+
+  .nav-links a {
+    margin: 4px 0;
   }
-  
+
+  .intro-text span {
+    font-size: 16px;
+  }
+
+  .intro-text p {
+    font-size: 14px;
+  }
+}
