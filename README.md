@@ -11,16 +11,6 @@ Website ini dirancang dengan gaya **low-poly 2D dan 3D** yang unik untuk menampi
 - 📱 Responsive layout (mobile-friendly)
 - 📁 Struktur kode HTML & CSS modular dan mudah dikembangkan lebih lanjut
 
-## 📂 Struktur Folder
-/portofolio<br>
-├── assets/<br>
-├── interface/<br>
-│   ├── home.html<br>
-│   └── about-me.html<br>
-└── style/<br>
-    ├── style-home.css<br>
-    └── style-about-me.css<br>
-
 ## 📦 Tech Stack
 
 - HTML5
