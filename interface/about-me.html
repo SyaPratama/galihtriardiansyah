@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style-about-me.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../style/style-about-me.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
-    <title>Galih Tri Ardiansyah</title>
+  <title>Galih Tri Ardiansyah</title>
 </head>
 <body>
-    <div class="about-me-section">
-        <div class="hero-nav-bar">
-            <div class="nav-links">
-              <a href="home.html">Home</a>
-              <a style="text-decoration: underline; color: #D5A362;" href="about-me.html">About Me</a>
-              <a href="project.html">My Project</a>
-              <a href="contact.html">Contact</a>
-            </div>
-        </div>
+  <div class="about-me-section">
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about-me.html" class="active-link">About Me</a>
+        <a href="project.html">My Project</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
 
-        <div class="img-content-container">
-            <div class="text-and-image-container">
-                <div class="img-container">
-                    <img src="../assets/about-me-sign.png" alt="about-me-sign">
-                </div>
-                <div class="text-container">
-                    <span>Hi, I'm Galih 👋</span> <br>
-                    <p><span>A Full-stuck Developer</span> who loves<br>to experiment with code and build simple yet functional digital<br>solutions.<br> 
-                        I have been actively developing Android, Web, and WhatsApp bot<br>applications for the gaming community.<br>
-                        I'm currently focusing on learning Kotlin, Node.js, and developing<br>web application. Let's build something cool together!</p>
-                </div>
-            </div>
-
-            <div class="about-me-img">
-                <img src="../assets/about-me-img.png" alt="about-me-image">
-            </div>
+    <!-- Main About Me Content -->
+    <div class="about-content">
+      <!-- Sign and Text -->
+      <div class="intro-section">
+        <div class="sign-image">
+          <img src="../assets/about-me-sign.png" alt="about-me-sign" />
         </div>
+        <div class="intro-text">
+          <span>Hi, I'm Galih 👋</span><br />
+          <p>
+            <span>A Full-stuck Developer</span> who loves<br />
+            to experiment with code and build simple yet functional digital solutions.<br />
+            I have been actively developing Android, Web, and WhatsApp bot<br />
+            applications for the gaming community.<br />
+            I'm currently focusing on learning Kotlin, Node.js, and developing<br />
+            web application. Let's build something cool together!
+          </p>
+        </div>
+      </div>
+
+      <!-- Illustration -->
+      <div class="illustration">
+        <img src="../assets/about-me-img.png" alt="about-me-image" />
+      </div>
     </div>
+  </div>
 </body>
 </html>
