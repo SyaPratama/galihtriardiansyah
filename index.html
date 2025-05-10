@@ -41,16 +41,33 @@
       <!-- Tagline & CTA -->
       <div class="hero-tagline">
         <span>HI, I'M</span>
-        <h1>GALIH TRI ARDIANSYAH</h1>
+        <h1 class="typing-text">GALIH TRI ARDIANSYAH</h1>
         <p>A Full-stuck Developer who loves making ideas come to life.<br>Let's create cool things together.</p>
 
         <!-- Tombol Aksi -->
         <div class="cta-button">
           <button class="btn-see-project">See Project</button>
-          <button class="btn-hire-me">Hire Me!</button>
+          <button class="btn-hire-me">Let's Connect!</button>
         </div>
       </div>
     </div>
   </div>
+
+  <script>
+    const text = "GALIH TRI ARDIANSYAH";
+    const typingElement = document.getElementById("typing-text");
+    let index = 0;
+  
+    function typeText() {
+      if (index < text.length) {
+        typingElement.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeText, 100);
+      }
+    }
+  
+    window.onload = typeText;
+  </script>
+  
 </body>
 </html>
