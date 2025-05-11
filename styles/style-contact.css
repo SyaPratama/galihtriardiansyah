@@ -1,0 +1,84 @@
+/* Reset margin & padding */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contact-section {
+  margin: auto;
+  width: 1547px;
+  height: 790px;
+}
+
+/* Navigasi */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 145px;
+  width: 100%;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active-link {
+  color: #D5A362;
+  text-decoration: underline;
+}
+
+.text-image-container{
+    display: flex;
+    margin-top: 111px;
+}
+
+.text-container{
+    margin-top: 19px;
+}
+
+.text-container h1{
+     font-family: 'Press Start 2P';
+     font-size: 24px;
+}
+
+.text-container p{
+      font-family: "Inter";
+      font-size: 24px;
+}
+
+.img-container img{
+    width: 701px;
+    height: auto;
+    margin-top: -60px;
+    margin-left: 44px;
+}
+
+.btn-container button{
+    font-family: 'Press Start 2P' ;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    margin: 7px;
+    border-radius: 8px;
+    border: none;
+    background-color: #D5A362;
+    color: white;
+    font-size: 16px ;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.75);
+}
+
+.btn-container img{
+    margin-right: 6.98px;
+}
+
+.btn-container a{
+    text-decoration: none;
+}
