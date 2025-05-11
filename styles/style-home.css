@@ -116,7 +116,6 @@ body {
   50% { border-color: transparent }
 }
 
-
 /* Responsive layout */
 @media screen and (max-width: 1024px) {
   .hero-nav-bar {
