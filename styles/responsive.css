@@ -1,0 +1,33 @@
+@media screen and (max-width: 701px) {
+
+    /*Home Section  */
+    .hero-img{
+        width: 100%;
+    }
+
+    .hero-nav-bar,
+    .hero-nav-bar .nav-links{
+        padding: 1rem 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .hero-nav-bar .nav-links a{
+        font-size: .55em;
+    }
+
+    /* Tag Line */
+    .hero-tagline{
+        margin: 0;
+    }
+
+    /* Container */
+
+    .hero-container{
+        padding: 0 2rem;
+    }
+
+
+    /*  */
+
+}

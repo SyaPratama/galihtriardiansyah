@@ -1,73 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Galih Tri Ardiansyah</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galih Tri Ardiansyah</title>
 
-  <!-- Link ke stylesheet -->
-  <link rel="stylesheet" type="text/css" href="styles/style-home.css" />
+    <!-- Link ke stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles/style-home.css" />
 
-  <!-- Google Font: Press Start 2P -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="styles/responsive.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- Bagian utama hero -->
-  <div class="hero-section">
-    
-    <!-- Navigasi -->
-    <div class="hero-nav-bar">
-      <div class="nav-links">
-        <a style="text-decoration: underline; color: #D5A362;" href="index.html">Home</a>
-        <a href="about-me.html">About Me</a>
-        <a href="project.html">My Project</a>
-        <a href="contact.html">Contact</a>
+    <!-- Google Font: Press Start 2P -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Bagian utama hero -->
+    <div class="hero-section">
+      <!-- Navigasi -->
+      <div class="hero-nav-bar">
+        <div class="nav-links">
+          <a
+            style="text-decoration: underline; color: #d5a362"
+            href="index.html"
+            >Home</a
+          >
+          <a href="about-me.html">About Me</a>
+          <a href="project.html">My Project</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
-    </div>
 
-    <!-- Container utama konten hero -->
-    <div class="hero-container">
-      <!-- Gambar hero -->
-      <div class="hero-img">
-        <img src="images/hero-img.png" alt="hero-image" />
-      </div>
+      <!-- Container utama konten hero -->
+      <div class="hero-container">
+        <!-- Gambar hero -->
+        <div class="hero-img">
+          <img src="images/hero-img.png" alt="hero-image" />
+        </div>
 
-      <!-- Tagline & CTA -->
-      <div class="hero-tagline">
-        <span>HI, I'M</span>
-        <h1 class="typing-text">GALIH TRI ARDIANSYAH</h1>
-        <p>A Full-stuck Developer who loves making ideas come to life.<br>Let's create cool things together.</p>
+        <!-- Tagline & CTA -->
+        <div class="hero-tagline">
+          <span>HI, I'M</span>
+          <h1 class="typing-text">GALIH TRI ARDIANSYAH</h1>
+          <p>
+            A Full-stuck Developer who loves making ideas come to life.<br />Let's
+            create cool things together.
+          </p>
 
-        <!-- Tombol Aksi -->
-        <div class="cta-button">
-          <a href="project.html"><button class="btn-see-project">See Project</button></a>
-          <a href="contact.html"><button class="btn-hire-me">Let's Connect!</button></a>
+          <!-- Tombol Aksi -->
+          <div class="cta-button">
+            <a href="project.html"
+              ><button class="btn-see-project">See Project</button></a
+            >
+            <a href="contact.html"
+              ><button class="btn-hire-me">Let's Connect!</button></a
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script>
-    const text = "GALIH TRI ARDIANSYAH";
-    const typingElement = document.getElementById("typing-text");
-    let index = 0;
-  
-    function typeText() {
-      if (index < text.length) {
-        typingElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeText, 100); 
+    <script>
+      const text = "GALIH TRI ARDIANSYAH";
+      const typingElement = document.getElementById("typing-text");
+      let index = 0;
+
+      function typeText() {
+        if (index < text.length) {
+          typingElement.innerHTML += text.charAt(index);
+          index++;
+          setTimeout(typeText, 100);
+        }
       }
-    }
-  
-    window.onload = typeText;
-  </script>
-  
-</body>
+
+      window.onload = typeText;
+    </script>
+  </body>
 </html>
