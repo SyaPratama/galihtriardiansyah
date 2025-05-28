@@ -1,0 +1,95 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* ===== SECTION WRAPPER ===== */
+#project-section {
+  margin: auto;
+  width: 1547px;
+  height: 790px;
+}
+
+/* ===== NAVIGATION ===== */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 145px;
+  width: 100%;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active-link {
+  color: #D5A362;
+  text-decoration: underline;
+}
+
+/* ===== IMAGE NAVIGATION ===== */
+.img-nav-container {
+  display: flex;
+}
+
+.my-project-sign img {
+  width: 476px;
+  height: auto;
+}
+
+/* ===== PROJECT CONTAINER ===== */
+.project-container {
+  display: flex;
+  width: 1541px;
+  height: 659px;
+  margin-top: -70px;
+  padding-bottom: 70px;
+  gap: 58px;
+}
+
+/* ===== CARD STYLE ===== */
+.card {
+  background-color: #45311C;
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.30);
+}
+
+/* ===== CONTENT INSIDE CARD ===== */
+.container {
+  text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+}
+
+/* ===== BUTTON STYLE ===== */
+.container button {
+  margin-top: 24px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #D5A362;
+  padding: 20px 30px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #755035;
+  color: #D5A362;
+}
