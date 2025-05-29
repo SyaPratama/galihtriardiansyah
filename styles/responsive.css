@@ -181,7 +181,22 @@
   }
 
   /* Project Section */
-  .project-container {
-    grid-template-columns: 350px;
+  .img-nav-container{
+    display: flex;
+    justify-content: center;
   }
+
+  .my-project-sign{
+    width: 70%;
+  }
+
+  .project-container {
+    grid-template-columns: 300px;
+  }
+
+  .card{
+    width: 300px;
+    height: 300px;
+  }
+
 }
