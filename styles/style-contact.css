@@ -7,8 +7,7 @@ body {
 
 .contact-section {
   margin: auto;
-  width: 1547px;
-  height: 790px;
+  width: 100%;
 }
 
 /* Navigasi */
@@ -32,6 +31,8 @@ body {
   color: #D5A362;
   text-decoration: underline;
 }
+
+/* Imagee */
 
 .text-image-container{
     display: flex;
