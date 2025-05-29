@@ -1,33 +1,77 @@
 @media screen and (max-width: 701px) {
+  /*Home Section  */
+  .hero-img {
+    width: 100%;
+  }
 
-    /*Home Section  */
-    .hero-img{
-        width: 100%;
-    }
+  .hero-nav-bar,
+  .hero-nav-bar .nav-links {
+    padding: 1rem 0;
+    margin: 0;
+    justify-content: center;
+  }
 
-    .hero-nav-bar,
-    .hero-nav-bar .nav-links{
-        padding: 1rem 0;
-        margin: 0;
-        justify-content: center;
-    }
+  .hero-nav-bar .nav-links a {
+    font-size: 0.55em;
+  }
 
-    .hero-nav-bar .nav-links a{
-        font-size: .55em;
-    }
+  /* Tag Line */
+  .hero-tagline {
+    margin: 0;
+  }
 
-    /* Tag Line */
-    .hero-tagline{
-        margin: 0;
-    }
+  /* Container */
 
-    /* Container */
+  .hero-container {
+    padding: 0 2rem;
+  }
 
-    .hero-container{
-        padding: 0 2rem;
-    }
+  /* About */
+  .navbar{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
 
+  .navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
 
-    /*  */
+  .navbar .nav-links a {
+    font-size: 0.55em;
+    margin: 0;
+  }
 
+  .about-me-section {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .sign-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-text {
+    margin: 0;
+    transform: rotateZ(0deg);
+  }
+
+  .intro-text span {
+    font-size: 1rem;
+  }
+
+  .intro-text p {
+    font-size: 1.2rem;
+  }
+
+  .illustration {
+    display: none;
+  }
 }
