@@ -82,7 +82,8 @@
     gap: 0.5rem;
   }
 
-  .sidebar-control:hover {
+  .sidebar-control:hover,
+  .sidebar-control.active{
     background: rgba(0, 0, 0, 0.1);
   }
 
@@ -199,4 +200,36 @@
     height: 300px;
   }
 
+
+  /* Contact */
+  .text-image-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-container h1{
+    font-size: .8rem;
+    line-height: 1.2rem;
+  }
+
+  .text-container p{
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+
+  .img-container
+  {
+    width: 80%;
+  }
+
+  .btn-container{
+    margin-top: 1rem;
+  }
+
+  .btn-container button{
+    display: flex;
+    text-align: center;
+    font-size: .8rem;
+  }
 }
